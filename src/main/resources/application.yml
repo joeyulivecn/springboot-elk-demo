@@ -1,0 +1,9 @@
+server:
+  port: 9000
+logging:
+  level:
+    root: debug
+  path: logs
+spring:
+  profiles:
+    active: prod
